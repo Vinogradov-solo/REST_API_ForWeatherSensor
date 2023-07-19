@@ -1,5 +1,17 @@
-# REST_API_ForWeatherSensor
-REST API service that will receive data from the "sensor"
-The weather sensor, as a customer, measures the air temperature and determines if it is raining or not. 
-My REST API accepts data from the sensor and stores it in the database. 
-Since we don't have a real sensor, it will be our own Java Client, which will use RestTemplate to send HTTP requests to my service.
+# REST API For Weather Sensor
+
+A REST API service designed to receive data from a “Weather sensor”
+
+## Functionality
+
+- The weather sensor measures the air temperature, and determines whether it’s raining or not
+- My REST API receives data from the sensor, and stores it into the database
+
+### Technology
+
+
+#### Details
+
+- Since we do not have a real weather sensor, we will use our own Java client, which uses the RestTemplate to make HTTP requests to our service
+– Standard layers include controllers, services, config, DAO, models, repos, utils (validation)
+– Uses PostgreSQL database
