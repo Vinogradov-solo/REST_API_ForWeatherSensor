@@ -10,8 +10,7 @@ A REST API service designed to receive data from a “Weather sensor”
 ### Technology
 
 - Spring Boot 2.7
-- REST Template
-- Jackson
+- RESTTemplate
 - Data JPA (+ Hibernate)
 
 #### Details
@@ -19,4 +18,3 @@ A REST API service designed to receive data from a “Weather sensor”
 - Since we do not have a real weather sensor, we will use our own Java client, which uses the RestTemplate to make HTTP requests to our service
 – Standard layers include controllers, services, config, DAO, models, repos, utils (validation)
 – Uses PostgreSQL database
-- Uses Jackson to work witn requests from my Java Client to REST API service
